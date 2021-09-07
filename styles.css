@@ -1,0 +1,60 @@
+.c-section1 {
+  display: flex;
+  justify-content: space-around;
+  color: #002e5f;
+}
+
+.c-section1-form {
+  width: 50%;
+}
+
+.c-section1-form h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.c-section1-form > input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+.c-section1-form button {
+  padding: 10px;
+  border: none;
+  background-color: #0f3b6b;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.select_country {
+  display: flex;
+  justify-content: space-around;
+}
+
+.group-radiobuttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text_feedback {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.text_feedback label {
+  margin-bottom: 1em;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}

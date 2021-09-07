@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header class="header-container-padre"></header>
+    <main>
+      <section class="c-section1">
+        <form class="c-section1-form">
+          <h1>Sign Up for our University Programs</h1>
+          <p>
+            If you want to request more information, you can fill out the
+            following form and send it to us. One of our advisors will contact
+            you in the next 24 hours to answer your questions and offer you all
+            the information you need.
+          </p>
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Jhon" />
+          <label for="last_name">Last Name:</label>
+          <input type="text" id="last_name" placeholder="Doe" />
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" placeholder="email@address.com" />
+          <label for="telephone">Telephone:</label>
+          <input type="tel" id="telephone" placeholder="+52" />
+          <label for="age">Age:</label>
+          <input type="number" id="age" placeholder="18" />
+          <div class="select_country">
+            <label for="origin_country">Country:</label>
+            <select name="country" id="origin_country">
+              <option>Mexico</option>
+              <option>United States</option>
+              <option>Canada</option>
+              <option>Belize</option>
+              <option>Guatemala</option>
+            </select>
+          </div>
+          <div class="group-radiobuttons">
+            <p>Select your Gender:</p>
+            <label for="g_male">Male</label>
+            <input type="radio" name="gender" id="g_male" value="g_male" />
+            <label for="g_woman">Female</label>
+            <input type="radio" name="gender" id="g_female" value="g_female" />
+            <label for="g_other">Other</label>
+            <input type="radio" name="gender" id="g_other" value="g_other" />
+          </div>
+
+          <div class="text_feedback">
+            <label>
+              Please write any feedback or suggestions you might have for us:
+            </label>
+            <textarea
+              name="feedback"
+              id="contact_feedback"
+              cols="25"
+              rows="15"
+            ></textarea>
+          </div>
+          <div class="checkbox">
+            <label for="chk_survey"
+              >Do you want to take another survey at a later time?</label
+            >
+            <input type="checkbox" id="chk_survey" />
+          </div>
+          <button type="reset">Send</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
